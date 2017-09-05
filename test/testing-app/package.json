@@ -1,0 +1,31 @@
+{
+  "name": "testing-app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build --prod --build-optimizer --app 1 --output-hashing=false"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^4.2.4",
+    "@angular/common": "^4.2.4",
+    "@angular/compiler": "^4.2.4",
+    "@angular/core": "^4.2.4",
+    "@angular/forms": "^4.2.4",
+    "@angular/http": "^4.2.4",
+    "@angular/platform-browser": "^4.2.4",
+    "@angular/platform-browser-dynamic": "^4.2.4",
+    "@angular/platform-server": "^4.2.4",
+    "@angular/router": "^4.2.4",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.14"
+  },
+  "devDependencies": {
+    "@angular/cli": "1.3.2",
+    "@angular/compiler-cli": "^4.2.4",
+    "@angular/language-service": "^4.2.4",
+    "typescript": "~2.3.3"
+  }
+}
