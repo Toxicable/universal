@@ -1,0 +1,24 @@
+{
+  "name": "@nguniversal/absolute-url-interceptor",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "version": "5.0.0-beta.1",
+  "description": "An Interceptor for HttpClient which will automatically insert the absolute url",
+  "homepage": "https://github.com/angular/universal",
+  "license": "MIT",
+  "contributors": [
+    "Fabian Wiles"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/universal"
+  },
+  "bugs": {
+    "url": "https://github.com/angular/universal/issues"
+  },
+  "peerDependencies": {
+    "@angular/core": "^5.0.0-beta.7",
+    "@angular/common": "^5.0.0-beta.7",
+    "rxjs": "^5.2.0"
+  }
+}

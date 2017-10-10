@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../dist/absolute-url-interceptor"
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true
+  },
+  "files": [
+    "index.ts"
+  ]
+}
